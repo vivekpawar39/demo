@@ -32,7 +32,7 @@ class EmployeeList extends Component {
         <table align="center">
           <thead>
             <tr>
-              <th>Name</th>
+              <th>Name test </th>
               <th>Designation</th>
               <th>Date of Joining</th>
               <th>Age</th>
@@ -40,7 +40,7 @@ class EmployeeList extends Component {
             </tr>
           </thead>
           <tbody>
-            {this.props.employees.map(function(employee, index) {
+            {this.props.employees.map(function (employee, index) {
               return (
                 <tr key={employee.id}>
                   <td>{employee.name}</td>
